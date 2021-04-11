@@ -1,12 +1,1023 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Novedades de HTML5 y CSS3</title>
 </head>
+
 <body>
-    
+    <div>
+        <header>
+            <h1>
+                Novedades de HTML5 y CSS3
+            </h1>
+        </header>
+    </div>
+    <section>
+        <article>
+            <h3>HTML5</h3>
+            <figure>
+                <img src="img/descarga (1).png" alt="logo HTML5">
+            </figure>
+            <p><strong>¿Qué es HTML5?: </strong><br> HTML5 es la quinta revisión mportante del lenguaje básico de la
+                World Wide Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML
+                (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que deberá
+                servirse con sintaxis XML (application/xhtml+xml).</p>
+        </article>
+        <article>
+            <h4>Nuevos elementos de HTML5:</h4>
+            <p>HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso típico de los sitios web
+                modernos. Algunos de ellos son técnicamente similares a las etiquetas DIV y SPAN, pero tienen un
+                significado semántico, como por ejemplo NAV (bloque de navegación del sitio web) y FOOTER.</p>
+            <ul>
+                <li><strong>HEADER:</strong> Se utiliza para contener la cabecera de un sitio</li>
+                <li><strong>FOOTER:</strong> Contiene el pie de página de un sitio</li>
+                <li><strong>NAV:</strong> Contiene la funcionalidad de navegación para la página</li>
+                <li><strong>ARTICLE:</strong>Contiene una pieza intependiente de contenido, que tendría sentido sindicar
+                    como elemento RSS. Ejemplo: Una noticia.</li>
+                <li><strong>SECTION:</strong> Se utiliza bien para agrupar artículos en diferentes temas, o bien para
+                    definir las diferentes secciones de un solo artículo</li>
+                <li><strong>TIME:</strong> Se usa para marcar tiempos y fechas</li>
+                <li><strong>ASIDE:</strong> Define un bloque de contenido relacionado con el contenido principal que lo
+                    rodea, pero que no es esencial para el flujo del mismo</li>
+                <li><strong>HGROUP:</strong> Se utiliza para incluir más de un encabezado si quieres que cuente como un
+                    único encabezado en la estructura de encabezado de la página</li>
+                <li><strong>FIGURE y FIGCAPTION:</strong> Se usan para encapsular una figura como un único elemento y
+                    contener el título de la figura, respectivamente.</li>
+            </ul>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h4>Cambios de etiquetas de HTML4 en HTML5</h4>
+            <table>
+                <tr>
+                    <td style="font-weight:bold; font-size:14px">Etiqueta
+                    </td>
+                    <td style="font-weight:bold; font-size:14px">Atributos de la etiqueta
+                    </td>
+                    <td style="font-weight:bold; font-size:14px">Comentarios
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;!-- --&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>Comentarios
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;!DOCTYPE&gt;</b>
+                    </td>
+                    <td>HTML
+                    </td>
+                    <td>Estillo
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;a&gt;</b>
+                    </td>
+                    <td>href | target | rel | hreflang | media | type
+                    </td>
+                    <td>Atributo Añadido: <em>media</em><br>Atributo cambiado: Target
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;abbr&gt;</b>
+                    </td>
+                    <td>title
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;acronym&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta Eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;address&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;applet&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;area&gt;</b>
+                    </td>
+                    <td>Estándar o ningunos
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;article&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;aside&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;audio&gt;</b>
+                    </td>
+                    <td>autobuffer | autoplay | controls | loop | src
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;b&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Etiqueta cambiada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;base&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;basefont&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;bdo&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;big&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;blockquote&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;body&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;br&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;button&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;canvas&gt;</b>
+                    </td>
+                    <td>height | width
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;caption&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;center&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;cite&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Etiqueta cambiada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;code&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;col&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;colgroup&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;datalist&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;dd&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;del&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;details&gt;</b>
+                    </td>
+                    <td>open
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;dialog&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;dir&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;div&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>Division
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;dfn&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;dl&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;dt&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;em&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;embed&gt;</b>
+                    </td>
+                    <td>height | src | type | width
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;fieldset&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;figure&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;font&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;footer&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;form&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;frame&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;frameset&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;h1&gt;... &lt;h6&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;head&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;header&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Firebrick">
+                    <td><b><s>&lt;hgroup&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>hgroup se añadió a la especificación HTML5, pero ahora está obsoleta.<sup id="cite_ref-4"
+                            class="reference separada"><a href="#cite_note-4"><span
+                                    class="corchete-llamada">[</span>4<span class="corchete-llamada">]</span></a></sup>​
+                        Usar &lt;header&gt;
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;hr&gt;</b>
+                    </td>
+                    <td>Ninguno
+                    </td>
+                    <td>Etiqueta cambiada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;html&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;i&gt;</b>
+                    </td>
+                    <td>Ninguno
+                    </td>
+                    <td>Etiqueta cambiada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;iframe&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;img&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;input&gt;</b>
+                    </td>
+                    <td>accept | alt | auto-complete | autofocus | cheked | disabled | form | formaction | formenctype |
+                        formmethod | formnovalidate | formtarget | height | list | max | maxlength | min | multiple |
+                        name | pattern | placeholder | readonly | required | size | src | step | type | value | width
+                    </td>
+                    <td>Etiqueta cambiada: Añadidos 13 elementos a type
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;ins&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;isindex&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;kbd&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;label&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;legend&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;li&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;link&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;mark&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;map&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;menu&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;meta&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;meter&gt;</b>
+                    </td>
+                    <td>high | low | max | min | optimum | value
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;nav&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;noframes&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;noscript&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;object&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;ol&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;optgroup&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;option&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;output&gt;</b>
+                    </td>
+                    <td>form
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;p&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;param&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;pre&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;progress&gt;</b>
+                    </td>
+                    <td>max | value
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;q&gt;</b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;ruby&gt;</b>
+                    </td>
+                    <td>cite
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;rp&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;rt&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;s&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;samp&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;script&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;section&gt;</b>
+                    </td>
+                    <td>cite
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;select&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="LightBlue">
+                    <td><b>&lt;small&gt;</b>
+                    </td>
+                    <td>Atributos globales
+                    </td>
+                    <td>Etiqueta Cambiada
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;source&gt;</b>
+                    </td>
+                    <td>media | src | type
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;span&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;strike&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;strong&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;style&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;sub&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;sup&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;table&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tbody&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;td&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;textarea&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tfoot&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;th&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;thead&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;time&gt;</b>
+                    </td>
+                    <td>datetime | pubdate
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;title&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;tr&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;tt&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;u&gt;</b>
+                    </td>
+                    <td>Define texto que debe tener un estilo diferente del texto normal<sup id="cite_ref-5"
+                            class="reference separada"><a href="#cite_note-5"><span
+                                    class="corchete-llamada">[</span>5<span class="corchete-llamada">]</span></a></sup>​
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;ul&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>&lt;var&gt;</b>
+                    </td>
+                    <td>Estándar o ninguno
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr bgcolor="Gold">
+                    <td><b>&lt;video&gt;</b>
+                    </td>
+                    <td>src | poster | autobuffer | autoplay | loop | controls | width | height
+                    </td>
+                    <td>Nueva etiqueta
+                    </td>
+                </tr>
+                <tr bgcolor="DarkGray">
+                    <td><b><s>&lt;xmp&gt;</s></b>
+                    </td>
+                    <td>
+                    </td>
+                    <td>Etiqueta eliminada
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>Novedades de CSS3</h3>
+            <iframe width="751" height="480" src="https://www.youtube.com/embed/ZadbEmXgQ54"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h3>Cambios de CSS y CSS3</h3>
+            <video src="img/CAMBIOS DE CSS A CSS3.mp4"></video>
+        </article>
+    </section>
+    <div>
+        <form>
+            <h2>Subscripción a nuevo contenido:</h2>
+            <h4>Nombre completo:
+                <input type="text" name="Nombre" id="nombre">
+            </h4>
+            <br>
+            <h4>E-mail:
+                <input type="email" name="E-mail" id="email">
+            </h4>
+            <br>
+            <br>
+            <input type="submit" value="Suscribirme a más contenido">
+        </form>
+    </div>
+    <div>
+        <article>
+            <h4>Mi experiencia con diseño web</h4>
+            <p>El diseño web es parte fundamental de las tecnologías del siglo XXI, y el uso de HTML5 es necesario
+                dentro del diseño.
+                <br>
+                Mi experiencia con HTML5 va desde algún tiempo, y este trabajo me sirvió como forma de recordar lo
+                básico referente al maquetado Web, sin embargo, estas formas nativas y primitivas se vuelven tediosas si
+                ya se conoce framworks y SDKs que permiten automatizar algunas de las acciones que se deben hacer de
+                forma manual dentro de HTML nativo.
+                <br>
+                Puedo decir que este ejercicio sirvió como forma de refrescamiento de conocimientos.
+            </p>
+        </article>
+    </div>
 </body>
+
 </html>
